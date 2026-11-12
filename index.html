@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="sk">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Osobné portfólio Anny-Marie Poledňovej — projekty z oblasti návrhu, analýzy a kvality."
+    >
+    <meta name="theme-color" content="#ffffff">
+    <title>Anna-Marie Poledňová — osobné portfólio</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#obsah">Preskočiť na obsah</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#domov" aria-label="Anna-Marie Poledňová — domov">
+          <span class="brand-mark" aria-hidden="true">AP</span>
+          <span class="brand-name">Anna-Marie <strong>Poledňová</strong></span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Otvoriť navigáciu"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="primary-navigation" aria-label="Hlavná navigácia">
+          <a class="nav-link" href="#domov">Domov</a>
+          <a class="nav-link" href="#projekty">Projekty</a>
+          <a class="nav-link" href="#o-mne">O mne</a>
+          <a class="nav-link nav-link-contact" href="#kontakt">Kontakt</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="obsah">
+      <section class="hero section-anchor" id="domov" aria-labelledby="hero-title">
+        <div class="container hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-dot"></span> Moje portfólio</p>
+            <h1 id="hero-title">Vitaj na mojom <span>portfóliu</span></h1>
+            <p class="hero-description">
+              Prezentujem ti svoje projekty, zručnosti a záujmy v oblasti
+              informačných technológií, analýzy dát a manažmentu.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projekty">
+                Zobraziť projekty
+                <svg viewBox="0 0 20 20" aria-hidden="true">
+                  <path d="M4.5 10h11m-4.5-4.5 4.5 4.5-4.5 4.5" />
+                </svg>
+              </a>
+              <a class="button button-secondary" href="#kontakt">
+                <svg viewBox="0 0 20 20" aria-hidden="true">
+                  <rect x="2.5" y="4" width="15" height="12" rx="1.5" />
+                  <path d="m3.5 5 6.5 5.5L16.5 5" />
+                </svg>
+                Kontaktovať ma
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-art" aria-hidden="true">
+            <img
+              class="hero-illustration"
+              src="assets/n%C3%A1vrh%20porf%C3%B3lia.png"
+              alt=""
+              width="1672"
+              height="941"
+              fetchpriority="high"
+            >
+          </div>
+        </div>
+        <div class="hero-bottom-line" aria-hidden="true"></div>
+      </section>
+
+      <section class="expertise-strip" aria-label="Oblasti môjho zamerania">
+        <div class="container expertise-grid">
+          <article class="expertise-item">
+            <span class="expertise-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <rect x="3" y="4" width="18" height="13" rx="1.5" />
+                <path d="M8 21h8m-4-4v4" />
+              </svg>
+            </span>
+            <span><strong>Tvorba webu</strong><small>Návrh a vylepšovanie webových stránok.</small></span>
+          </article>
+          <article class="expertise-item">
+            <span class="expertise-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M4 20V12h4v8zm6 0V7h4v13zm6 0V4h4v16z" />
+              </svg>
+            </span>
+            <span><strong>Analýza dát</strong><small>Spracovanie a vizualizácia údajov.</small></span>
+          </article>
+          <article class="expertise-item">
+            <span class="expertise-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <circle cx="9" cy="8" r="3" />
+                <circle cx="17" cy="9" r="2.5" />
+                <path d="M3 19c0-3.2 2.4-5.5 6-5.5s6 2.3 6 5.5zm12-5c3.5-.5 6 1.5 6 4.5h-4" />
+              </svg>
+            </span>
+            <span><strong>Manažment</strong><small>Základy riadenia projektov a kvality.</small></span>
+          </article>
+        </div>
+      </section>
+
+      <section class="projects section-anchor section-pad" id="projekty" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow"><span class="eyebrow-dot"></span> Čo tvorím</p>
+              <h2 id="projects-title">Vybrané projekty<span class="heading-period">.</span></h2>
+            </div>
+            <p class="section-intro">
+              Každý projekt je iný pohľad na nápady, dáta a riešenia,
+              ktoré dávajú zmysel.
+            </p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-art" aria-hidden="true">
+                <svg class="project-photo" viewBox="130 550 180 128" preserveAspectRatio="xMidYMid slice">
+                  <image href="assets/n%C3%A1vrh%20porf%C3%B3lia.png" width="1672" height="941" />
+                </svg>
+              </div>
+              <div class="project-content">
+                <div class="project-meta"><span>Digitálny návrh</span><span class="meta-dot"></span><span>01 / 03</span></div>
+                <h3>Mačací raj</h3>
+                <p>
+                  Návrh internetového obchodu s krmivom a smart príslušenstvom
+                  pre mačky.
+                </p>
+                <div class="project-tags">
+                  <span>E-shop</span>
+                  <span>Smart domácnosť</span>
+                  <span>Mačky</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-art" aria-hidden="true">
+                <svg class="project-photo" viewBox="618 550 180 128" preserveAspectRatio="xMidYMid slice">
+                  <image href="assets/n%C3%A1vrh%20porf%C3%B3lia.png" width="1672" height="941" />
+                </svg>
+              </div>
+              <div class="project-content">
+                <div class="project-meta"><span>Analýza dát</span><span class="meta-dot"></span><span>02 / 03</span></div>
+                <h3>Štatistická analýza cien bytov</h3>
+                <p>
+                  Spracovanie údajov a tvorba grafov, ktoré pomáhajú
+                  zrozumiteľne ukázať vývoj cien bytov.
+                </p>
+                <div class="project-tags">
+                  <span>Excel</span>
+                  <span>Štatistika</span>
+                  <span>Vizualizácia dát</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-art" aria-hidden="true">
+                <svg class="project-photo" viewBox="1108 550 180 128" preserveAspectRatio="xMidYMid slice">
+                  <image href="assets/n%C3%A1vrh%20porf%C3%B3lia.png" width="1672" height="941" />
+                </svg>
+              </div>
+              <div class="project-content">
+                <div class="project-meta"><span>Semestrálna práca</span><span class="meta-dot"></span><span>03 / 03</span></div>
+                <h3>Manažment kvality</h3>
+                <p>
+                  Semestrálna práca o systémoch riadenia kvality
+                  a požiadavkách normy ISO 9001.
+                </p>
+                <div class="project-tags">
+                  <span>Manažment</span>
+                  <span>Kvalita</span>
+                  <span>ISO 9001</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section-anchor section-pad" id="o-mne" aria-labelledby="about-title">
+        <div class="container about-layout">
+          <div class="about-photo-wrap">
+            <img
+              class="about-photo"
+              src="assets/moja%20fotka.png"
+              alt="Portrét Anny-Marie Poledňovej"
+              width="1254"
+              height="1254"
+            >
+          </div>
+
+          <div class="about-copy">
+            <p class="eyebrow"><span class="eyebrow-dot"></span> Niečo o mne</p>
+            <h2 id="about-title">O mne</h2>
+            <p class="about-lead">
+              Som študentka Žilinskej univerzity, ktorá sa zaujíma o
+              informačné technológie, analýzu dát a manažment.
+            </p>
+            <p class="about-description">
+              Baví ma navrhovať webové riešenia, pracovať s dátami a hľadať
+              efektívne spôsoby organizácie a zlepšovania procesov. V mojom
+              portfóliu nájdeš návrh e-shopu, analýzu cien bytov aj prácu
+              o manažmente kvality.
+            </p>
+            <div class="about-values">
+              <span>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m2 9 10-5 10 5-10 5L2 9Z" />
+                  <path d="M6 11v5c3.5 2.5 8.5 2.5 12 0v-5M22 9v6" />
+                </svg>
+                Študentka UNIZA
+              </span>
+              <span>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="3" y="4" width="18" height="13" rx="1.5" />
+                  <path d="M8 21h8m-4-4v4" />
+                </svg>
+                IT a web
+              </span>
+              <span>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 20V12h4v8zm6 0V7h4v13zm6 0V4h4v16z" />
+                </svg>
+                Analýza dát
+              </span>
+              <span>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m12 2 2 2.2 3-.1.8 2.9 2.6 1.5-1 2.8 1 2.8-2.6 1.5-.8 2.9-3-.1L12 21l-2-2.2-3 .1-.8-2.9-2.6-1.5 1-2.8-1-2.8 2.6-1.5L7 6.5l3 .1L12 2Z" />
+                  <circle cx="12" cy="12" r="3" />
+                </svg>
+                Manažment kvality
+              </span>
+            </div>
+            <a class="text-link" href="#kontakt">
+              Spojme sa
+              <svg viewBox="0 0 20 20" aria-hidden="true">
+                <path d="M4.5 10h11m-4.5-4.5 4.5 4.5-4.5 4.5" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-anchor" id="kontakt" aria-labelledby="contact-title">
+        <div class="container">
+          <div class="contact-card">
+            <div class="contact-decoration contact-decoration-one" aria-hidden="true"></div>
+            <div class="contact-decoration contact-decoration-two" aria-hidden="true"></div>
+            <div class="contact-content">
+              <p class="eyebrow"><span class="eyebrow-dot"></span> Kontakt</p>
+              <h2 id="contact-title">Máš nápad?<br><span>Rada si ho vypočujem.</span></h2>
+              <p>
+                Kontaktné údaje zatiaľ nie sú zverejnené. Táto sekcia je
+                pripravená na ich doplnenie.
+              </p>
+            </div>
+            <div class="contact-mark" aria-hidden="true">
+              <svg viewBox="0 0 120 120">
+                <path d="M20 31h80v58H20z" />
+                <path d="m22 35 38 31 38-31" />
+                <path d="m22 86 27-25m49 25L71 61" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="brand footer-brand" href="#domov" aria-label="Anna-Marie Poledňová — späť na začiatok">
+          <span class="brand-mark" aria-hidden="true">AP</span>
+          <span class="brand-name">Anna-Marie <strong>Poledňová</strong></span>
+        </a>
+        <span class="footer-copy">© <span id="current-year">2026</span> Anna-Marie Poledňová</span>
+      </div>
+    </footer>
+  </body>
+</html>
